@@ -79,7 +79,7 @@ const ModulSection = () => {
               <div key={idx} className="grid grid-cols-3 items-start gap-6">
                 {/* left: image placeholder */}
                 <div className="flex justify-end">
-                  <div className="w-44 md:w-80 h-44 md:h-56 bg-gray-300 rounded-2xl shadow-sm" />
+                  <div className="w-44 md:w-[474px] h-44 md:h-56 bg-gray-300 rounded-2xl shadow-sm" />
                 </div>
 
                 {/* center: circle aligned on the center line */}

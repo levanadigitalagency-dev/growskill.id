@@ -7,6 +7,25 @@ import ModulSection from "@/components/ModulSection";
 import PricingSection from "@/components/PricingSection";
 import Footer from "@/components/Footer";
 
+export const metadata = {
+  title: "Growskill - Platform Pembelajaran Online Terbaik | Kursus Skills & Content Creation",
+  description: "Belajar skills, content creation, public speaking & editing untuk hasilkan income. Bergabung dengan ribuan member VIP Growskill sekarang juga.",
+  openGraph: {
+    title: "Growskill - Platform Pembelajaran Online Terbaik",
+    description: "Belajar skills, content creation, public speaking & editing untuk hasilkan income.",
+    url: "https://growskill.id",
+    type: "website",
+    images: [
+      {
+        url: "https://growskill.id/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Growskill",
+      },
+    ],
+  },
+};
+
 export default function Home() {
   return (
     <div className="pt-20 bg-black">
