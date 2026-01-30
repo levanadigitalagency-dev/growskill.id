@@ -34,7 +34,7 @@ const AboutSection2: React.FC<AboutSection2Props> = ({
   ],
 }) => {
   return (
-    <section className="bg-black text-white px-[20px] pt-12 md:py-24">
+    <section className="bg-black text-white px-[20px] md:px-[70px] pt-12 md:py-24">
       <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Title */}
         <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold text-center mb-16">
